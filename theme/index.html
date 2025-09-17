@@ -111,6 +111,7 @@
             <li class="nav-item @@blog">
               <a class="nav-link" href="blog.html">BLOG</a>
             </li>
+
             <li class="nav-item dropdown view">
               <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                 Pages
@@ -141,6 +142,15 @@
             <li class="nav-item @@contact">
               <a class="nav-link" href="contact.html">CONTACT</a>
             </li>
+             <!-- ✅ seletor de idioma -->
+  <li class="nav-item">
+    <select id="lang" class="custom-select custom-select-sm ml-2" aria-label="Language switcher">
+      <option value="en">🇬🇧 EN</option>
+      <option value="pt">🇵🇹 PT</option>
+      <option value="es">🇪🇸 ES</option>
+    </select>
+  </li>
+  
           </ul>
         </div>
       </nav>
@@ -216,45 +226,76 @@
 <section class="hero-section overlay bg-cover" data-background="images/banner/banner-1.jpg">
   <div class="container">
     <div class="hero-slider">
-      <!-- slider item -->
+
+      <!-- slider item: geral -->
       <div class="hero-slider-item">
         <div class="row">
           <div class="col-md-8">
-            <h1 class="text-white" data-animation-out="fadeOutRight" data-delay-out="5" data-duration-in=".3" data-animation-in="fadeInLeft" data-delay-in=".1">Your bright future is our mission</h1>
-            <p class="text-muted mb-4" data-animation-out="fadeOutRight" data-delay-out="5" data-duration-in=".3" data-animation-in="fadeInLeft" data-delay-in=".4">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-              tempor
-              incididunt ut labore et
-              dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exer</p>
-            <a href="contact.html" class="btn btn-primary" data-animation-out="fadeOutRight" data-delay-out="5" data-duration-in=".3" data-animation-in="fadeInLeft" data-delay-in=".7">Apply now</a>
+            <h1 class="text-white" data-i18n="hero.general.title"
+                data-animation-out="fadeOutRight" data-delay-out="5"
+                data-duration-in=".3" data-animation-in="fadeInLeft" data-delay-in=".1">
+              Marketing that opens doors and Lessons that make a difference
+            </h1>
+            <p class="text-muted mb-4" data-i18n="hero.general.subtitle"
+               data-animation-out="fadeOutRight" data-delay-out="5"
+               data-duration-in=".3" data-animation-in="fadeInLeft" data-delay-in=".4">
+              Two services, one goal: grow with you!
+            </p>
+            <a href="contact.html" class="btn btn-primary" data-i18n="hero.general.cta"
+               data-animation-out="fadeOutRight" data-delay-out="5"
+               data-duration-in=".3" data-animation-in="fadeInLeft" data-delay-in=".7">
+              Apply Now
+            </a>
           </div>
         </div>
       </div>
-      <!-- slider item -->
+
+      <!-- slider item: marketing -->
       <div class="hero-slider-item">
         <div class="row">
           <div class="col-md-8">
-            <h1 class="text-white" data-animation-out="fadeOutUp" data-delay-out="5" data-duration-in=".3" data-animation-in="fadeInDown" data-delay-in=".1">Your bright future is our mission</h1>
-            <p class="text-muted mb-4" data-animation-out="fadeOutUp" data-delay-out="5" data-duration-in=".3" data-animation-in="fadeInDown" data-delay-in=".4">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-              tempor
-              incididunt ut labore et
-              dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exer</p>
-            <a href="contact.html" class="btn btn-primary" data-animation-out="fadeOutUp" data-delay-out="5" data-duration-in=".3" data-animation-in="fadeInDown" data-delay-in=".7">Apply now</a>
+            <h1 class="text-white" data-i18n="hero.marketing.title"
+                data-animation-out="fadeOutUp" data-delay-out="5"
+                data-duration-in=".3" data-animation-in="fadeInDown" data-delay-in=".1">
+              Professional Marketing Solutions
+            </h1>
+            <p class="text-muted mb-4" data-i18n="hero.marketing.subtitle"
+               data-animation-out="fadeOutUp" data-delay-out="5"
+               data-duration-in=".3" data-animation-in="fadeInDown" data-delay-in=".4">
+              Strategies that help your brand grow and reach the right audience.
+            </p>
+            <a href="contact.html" class="btn btn-primary" data-i18n="hero.marketing.cta"
+               data-animation-out="fadeOutUp" data-delay-out="5"
+               data-duration-in=".3" data-animation-in="fadeInDown" data-delay-in=".7">
+              Let’s Talk
+            </a>
           </div>
         </div>
       </div>
-      <!-- slider item -->
+
+      <!-- slider item: aulas de inglês -->
       <div class="hero-slider-item">
         <div class="row">
           <div class="col-md-8">
-            <h1 class="text-white" data-animation-out="fadeOutDown" data-delay-out="5" data-duration-in=".3" data-animation-in="fadeInUp" data-delay-in=".1">Your bright future is our mission</h1>
-            <p class="text-muted mb-4" data-animation-out="fadeOutDown" data-delay-out="5" data-duration-in=".3" data-animation-in="fadeInUp" data-delay-in=".4">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-              tempor
-              incididunt ut labore et
-              dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exer</p>
-            <a href="contact.html" class="btn btn-primary" data-animation-out="fadeOutDown" data-delay-out="5" data-duration-in=".3" data-animation-in="zoomIn" data-delay-in=".7">Apply now</a>
+            <h1 class="text-white" data-i18n="hero.english.title"
+                data-animation-out="fadeOutDown" data-delay-out="5"
+                data-duration-in=".3" data-animation-in="fadeInUp" data-delay-in=".1">
+              Learn English with Confidence
+            </h1>
+            <p class="text-muted mb-4" data-i18n="hero.english.subtitle"
+               data-animation-out="fadeOutDown" data-delay-out="5"
+               data-duration-in=".3" data-animation-in="fadeInUp" data-delay-in=".4">
+              Tailored lessons for students and professionals.
+            </p>
+            <a href="contact.html" class="btn btn-primary" data-i18n="hero.english.cta"
+               data-animation-out="fadeOutDown" data-delay-out="5"
+               data-duration-in=".3" data-animation-in="zoomIn" data-delay-in=".7">
+              Book a Class
+            </a>
           </div>
         </div>
       </div>
+
     </div>
   </div>
 </section>
@@ -817,6 +858,7 @@
 
 <!-- Main Script -->
 <script src="js/script.js"></script>
+<script src="assets/js/i18n.js" type="module"></script>
 
 </body>
 </html>
