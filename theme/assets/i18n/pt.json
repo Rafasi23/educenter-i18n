@@ -1,0 +1,55 @@
+{
+  "topbar": {
+    "notice": "Avisos",
+    "research": "Investigação",
+    "scholarship": "Bolsas",
+    "login": "Entrar",
+    "register": "Registar"
+  },
+  "nav": {
+    "home": "Início",
+    "about": "Sobre",
+    "courses": "Cursos",
+    "events": "Eventos",
+    "blog": "Blog",
+    "pages": "Páginas",
+    "contact": "Contacto"
+  },
+  "hero": {
+    "general": {
+      "title": "Marketing que abre portas e aulas que fazem a diferença",
+      "subtitle": "Dois serviços, um objetivo: crescer contigo.",
+      "cta": "Candidata-te já"
+    },
+    "marketing": {
+      "title": "Soluções Profissionais de Marketing",
+      "subtitle": "Estratégias que ajudam a tua marca a crescer e a chegar ao público certo.",
+      "cta": "Fala connosco"
+    },
+    "english": {
+      "title": "Aprende Inglês com Confiança",
+      "subtitle": "Aulas personalizadas para estudantes e profissionais.",
+      "cta": "Marca uma aula"
+    }
+  },
+  "home": {
+    "tiles": {
+      "scholarshipTitle": "Notícias de Bolsas",
+      "scholarshipDesc": "As informações mais recentes sobre bolsas.",
+      "noticeTitle": "Quadro de Avisos",
+      "noticeDesc": "Comunicados e atualizações importantes."
+    }
+  },
+  "contact": {
+    "title": "Contacto",
+    "form": {
+      "name": "Nome",
+      "email": "Email",
+      "message": "Mensagem",
+      "send": "Enviar"
+    }
+  },
+  "footer": {
+    "copy": "© 2025. Todos os direitos reservados."
+  }
+}

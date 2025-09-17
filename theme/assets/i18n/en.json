@@ -1,0 +1,55 @@
+{
+  "topbar": {
+    "notice": "Notice",
+    "research": "Research",
+    "scholarship": "Scholarship",
+    "login": "Login",
+    "register": "Register"
+  },
+  "nav": {
+    "home": "Home",
+    "about": "About",
+    "courses": "Courses",
+    "events": "Events",
+    "blog": "Blog",
+    "pages": "Pages",
+    "contact": "Contact"
+  },
+  "hero": {
+    "general": {
+      "title": "Marketing that opens doors and lessons that make a difference",
+      "subtitle": "Two services, one goal: grow with you.",
+      "cta": "Apply Now"
+    },
+    "marketing": {
+      "title": "Professional Marketing Solutions",
+      "subtitle": "Strategies that help your brand grow and reach the right audience.",
+      "cta": "Let’s Talk"
+    },
+    "english": {
+      "title": "Learn English with Confidence",
+      "subtitle": "Tailored lessons for students and professionals.",
+      "cta": "Book a Class"
+    }
+  },
+  "home": {
+    "tiles": {
+      "scholarshipTitle": "Scholarship News",
+      "scholarshipDesc": "Latest information about scholarships.",
+      "noticeTitle": "Our Notice Board",
+      "noticeDesc": "Important announcements and updates."
+    }
+  },
+  "contact": {
+    "title": "Contact",
+    "form": {
+      "name": "Name",
+      "email": "Email",
+      "message": "Message",
+      "send": "Send"
+    }
+  },
+  "footer": {
+    "copy": "© 2025. All rights reserved."
+    }
+}

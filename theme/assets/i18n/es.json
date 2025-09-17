@@ -1,0 +1,55 @@
+{
+  "topbar": {
+    "notice": "Avisos",
+    "research": "Investigación",
+    "scholarship": "Becas",
+    "login": "Iniciar sesión",
+    "register": "Registrarse"
+  },
+  "nav": {
+    "home": "Inicio",
+    "about": "Acerca de",
+    "courses": "Cursos",
+    "events": "Eventos",
+    "blog": "Blog",
+    "pages": "Páginas",
+    "contact": "Contacto"
+  },
+  "hero": {
+    "general": {
+      "title": "Marketing que abre puertas y clases que marcan la diferencia",
+      "subtitle": "Dos servicios, un objetivo: crecer contigo.",
+      "cta": "Aplica ahora"
+    },
+    "marketing": {
+      "title": "Soluciones Profesionales de Marketing",
+      "subtitle": "Estrategias que ayudan a tu marca a crecer y llegar al público adecuado.",
+      "cta": "Hablemos"
+    },
+    "english": {
+      "title": "Aprende Inglés con Confianza",
+      "subtitle": "Clases personalizadas para estudiantes y profesionales.",
+      "cta": "Reserva una clase"
+    }
+  },
+  "home": {
+    "tiles": {
+      "scholarshipTitle": "Noticias de Becas",
+      "scholarshipDesc": "La información más reciente sobre becas.",
+      "noticeTitle": "Nuestro Tablón de Anuncios",
+      "noticeDesc": "Comunicados y actualizaciones importantes."
+    }
+  },
+  "contact": {
+    "title": "Contacto",
+    "form": {
+      "name": "Nombre",
+      "email": "Email",
+      "message": "Mensaje",
+      "send": "Enviar"
+    }
+  },
+  "footer": {
+    "copy": "© 2025. Todos los derechos reservados."
+  }
+}
